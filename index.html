@@ -35,13 +35,40 @@
 
 <body id="page-top" class="index">
 	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
+	<script>
+		
+		document.onkeydown = function(e) {
+if(event.keyCode == 123) {
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == ‘I’.charCodeAt(0)){
+alert(‘@copyright Yourportfolio for your curiculum vitae , resume & your portfolio’)
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == ‘J’.charCodeAt(0)){
+alert(‘@copyright Yourportfolio for your curiculum vitae , resume & your portfolio’)
+return false;
+}
+if(e.ctrlKey && e.keyCode == ‘U’.charCodeAt(0)){
+alert(‘@copyright Yourportfolio for your curiculum vitae , resume & your portfolio’)
+return false;
+}
+}
+		
+		
+		
+		(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
 	  if (d.getElementById(id)) return;
 	  js = d.createElement(s); js.id = id;
 	  js.src = "//connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.4&appId=879970608752731";
 	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+	}(document, 'script', 'facebook-jssdk'));
+	
+	
+	
+	
+	</script>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
